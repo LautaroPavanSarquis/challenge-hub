@@ -1,6 +1,6 @@
 /*
-  Escribe una función que reciba dos palabras (String) y retorne
-  verdadero o falso (Bool) según sean o no anagramas.
+  Escribe una funciÃ³n que reciba dos palabras (String) y retorne
+  verdadero o falso (Bool) segÃºn sean o no anagramas.
 
   - Un Anagrama consiste en formar una palabra reordenando TODAS
     las letras de otra palabra inicial.
@@ -17,11 +17,8 @@ bool isAnagrama(string palabra1, string palabra2){
      if (palabra1.length() != palabra2.length()) {
         return false;
     }
-
-
-    map<char, int>map1,map2;
-
-
+  
+  map<char, int>map1,map2;
 
       for (char letra : palabra1) {
         map1[letra]++;
@@ -33,7 +30,6 @@ bool isAnagrama(string palabra1, string palabra2){
 
         return map1==map2;
 }
-
 
 int main() {
 
