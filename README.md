@@ -1,0 +1,1 @@
+Repositorio dedicado a la resolución de challenges y ejercicios de algoritmia de plataformas como LeetCode, HackerRank y más. Incluye soluciones en C#, SQL y otros lenguajes, con un enfoque en optimización y buenas prácticas. 🚀
